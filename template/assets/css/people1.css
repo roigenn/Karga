@@ -1,0 +1,57 @@
+.people1-page main{
+    width: 100%;
+    min-height: 759px;
+    margin: auto 54px;                
+    border-radius: 30px;
+    background-color: #fff;
+}
+.people1-page .card-box{
+    position: relative;
+    width: 100%;
+    max-width: 404px;
+    min-height: 100%;
+    text-align: center;
+    margin: auto;
+}
+.people1-page .card-box h5{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+.people1-page .card-box p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+.people1-page .card-box button{
+    background: #FFFFFF;
+    border: 0.5px solid #2278B8;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 146px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+
+}

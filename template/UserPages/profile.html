@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="../assets/css/default.css">
+        <link rel="stylesheet" type="text/css" href="../assets/css/profile.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="default-container d-flex bg-grey profile-page">
+            <div class="position-fixed d-block d-lg-none index-3 top-45 left-6">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            </div>
+
+            <div class="position-relative" style="height: 100vh; display:flex">
+                <aside id="sideBar" class="my-auto">
+                    <div class="py-3 text-center">
+                        <img src="../assets/images/nav/logo.png" class="logo">
+                    </div>
+                    <ul class="list-group position-relative list-group-flush mx-0 px-0">
+                        <a class="list-group-item mb-3" href="profile-edit.html">
+                            <div class="mr-2">
+                                <img width="42px" height="auto" src="../assets/images/nav/nav-ico1.png" alt="">
+                            </div>
+                            <div class="my-auto">
+                                Anasayfa
+                            </div>
+                        </a>
+                        <a class="list-group-item mb-3 active" href="profile.html">
+                            <div class="mr-2">
+                                <img width="42px" height="auto" src="../assets/images/nav/nav-ico2.png" alt="">
+                            </div>
+                            <div class="my-auto">
+                                Profil
+                            </div>
+                        </a>
+                        <a class="list-group-item mb-3" href="index.html">
+                            <div class="mr-2">
+                                <img width="42px" height="auto" src="../assets/images/nav/nav-ico3.png" alt="">
+                            </div>
+                            <div class="my-auto">
+                                Öz Gelecek
+                            </div>
+                        </a>
+                        <a class="list-group-item mb-3" href="index.html">
+                            <div class="mr-2">
+                                <img width="42px" height="auto" src="../assets/images/nav/nav-ico4.png" alt="">
+                            </div>
+                            <div class="my-auto">
+                                Yarışma
+                            </div>
+                        </a>
+                        <a class="list-group-item mb-3" href="index.html">
+                            <div class="mr-2">
+                                <img width="42px" height="auto" src="../assets/images/nav/nav-ico5.png" alt="">
+                            </div>
+                            <div class="my-auto">
+                                Ekibim
+                            </div>
+                        </a>
+                        <a class="list-group-item mb-3" href="index.html">
+                            <div>
+                                <img width="42px" height="auto" src="../assets/images/nav/nav-ico6.png" alt="">
+                            </div>
+                            <div class="my-auto">
+                                Çıkış
+                            </div>
+                        </a>
+                    </ul>
+                </aside>
+            </div>
+            <main class="mx-0 mx-lg-5 position-relative">
+                <section class="d-flex flex-column flex-xl-row justify-content-between">
+                    <div class="d-flex mb-4 mb-xl-0 mx-auto mx-xl-0">
+                        <div class="d-flex mr-3">
+                            <div class="img-box">
+                                <img class="img-fluid" src="../assets/images/profile/profile-ico1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="d-flex mr-3">
+                            <div class="img-box">
+                                <img class="img-fluid" src="../assets/images/profile/profile-ico2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="d-flex mr-3">
+                            <div class="img-box">
+                                <img class="img-fluid" src="../assets/images/profile/profile-ico1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="d-flex mr-3">
+                            <div class="img-box">
+                                <img class="img-fluid" src="../assets/images/profile/profile-ico2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" mb-4 mb-xl-0">
+                        <div class="text-center mb-3">
+                            <img src="../assets/images/profile/profile-avatar1.png" alt="">
+                        </div>
+                        <p class="ft-t1 text-center">Murat Turan, MsC</p>
+                        <p class="ft-t2 text-center">Università degli studi di Pavia</p>
+                    </div>
+
+                    <div class="grey-box radius-20 mx-auto mx-xl-0">
+                        <span class="font-weight-bold">100</span>&nbsp;Followers  - <span class="font-weight-bold">100</span>&nbsp;Following
+                    </div>
+                </section>
+
+                <hr class="mw-495">
+
+                <section class="mt-4">
+                    <h3 class="ft-tb1 text-center">Bio</h3>
+                    <textarea class="ft-default gr-oultine-box w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </textarea>
+                </section>
+
+                <hr class="mt-38 mb-0">
+                <section class="mt-4">
+                    <h3 class="ft-tb1 text-center">Eğitim Bilgileri</h3>
+                    <div class="row mx-0 mt-3">
+                        <div class="col-lg-6 mb-4 mb-lg-0">
+                            <textarea rows="5" class="ft-default gr-oultine-box mh-122 h-100% w-100">
+Gaziantep Üniversitesi - Mühendislik Fakültesi Elektrik Elektronik Mühendisliği
+Lisans
+2016-2022
+                            </textarea>
+                        </div>
+                        <div class="col-lg-6">
+                            <textarea rows="5" class="ft-default gr-oultine-box mh-122 w-100">
+Bialystok Technology University - Faculty of Engineering Computer Engineering
+Bachelors
+2019-2020
+                            </textarea>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="mt-34 d-flex">
+                    <a href="#" class="d-flex mx-auto py-2 px-4 ft-t4 gr-oultine-box">
+                        <div class="mr-4 my-auto ft-1">
+                            Profili Düzenle
+                        </div>
+                        <img class="my-auto" src="../assets/images/profile/profile-ico3.png" alt="">
+                    </a>
+                </div>
+            </main>
+        </div>
+
+        <script>
+            $(document).ready(function(){
+                $("#menu-btn").click(function(){
+                    $("aside").toggleClass("active")
+                })
+            })
+        </script>
+    </body>
+</html>

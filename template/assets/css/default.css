@@ -1,0 +1,323 @@
+:root{
+    --custom-primary:#2278B8;
+    --custom-secondary:#C4C4C4;
+}
+@font-face {
+    font-family: 'Futura-Normal';
+    src: url('../fonts/futura/Futura\ Heavy\ font.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Light.ttf');
+}
+.ft-default{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 19px;
+    color: #414141;
+}
+.default-container{
+    position: relative;
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+a{
+    text-decoration: none !important;
+}
+input:focus,
+textarea:focus{
+    outline: none !important;
+}
+button:focus{
+    outline: none;
+}
+.bottom-0{
+    bottom: 0;
+}
+
+.font-futura-normal{
+    font-family: 'Futura-Normal' !important;
+}
+.fw-700{
+    font-weight: 700;
+}
+.text-red{
+    color: #FB0000;
+}
+.bg-grey{
+    background-color: #F2F2F2;
+}
+.border-right-lg{
+    border-right: 1px solid #000000 !important;
+}
+.border-right-md{
+    border-right: 1px solid #000000 !important;
+}
+.radius-20{
+    border-radius: 20px;
+}
+.outline-blue{
+    border: 1px solid #2278B8;
+} 
+.br-5{
+    border-radius: 5px;
+}
+.br-10{
+    border-radius: 10px;
+}
+.br-15{
+    border-radius: 15px;
+}
+.mt-30{
+    margin-top: 50px;
+} 
+.mb-50{
+    margin-bottom: 30px;
+}
+.w-161{
+    width: 161px;
+}
+.h-186{
+    height: 186px;
+}
+.custom-text-primary{
+    color: var(--custom-primary) !important;
+}
+.custom-text-secondary{
+    color: var(--custom-secondary) !important;
+}
+
+.custom-background-primary{
+    background-color: var(--custom-primary) !important;
+}
+.custom-border-primary{
+    border:3px solid var(--custom-primary) !important;
+}
+
+.bird-24, .bird-34{
+    position: relative !important;
+}
+.bird-24::after, .bird-34::after{
+    content: "";
+    position: absolute;
+    background-image: url('../images/bird.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(-17.5deg);
+}
+.bird-24::after{
+    left:-15px;
+    top:-16px;
+    width:26px;
+    height:26px;
+}
+.bird-34::after{
+    left:-22px;
+    top:-19px;
+    width:34px;
+    height:34px;
+}
+
+.no-focus:focus{
+    outline: none !important;
+    box-shadow: none !important;    
+}
+
+/* vertical nav css start */
+    .default-container>div:first-child{
+        background-color: #F2F2F2;
+        width: 100%;
+        /* margin */
+    }
+    aside{
+        width: 203px;
+        min-width: 203px;
+        min-height: 604px;
+        padding-left: 13px;
+        padding-right: 13px;
+        border-radius: 0px 20px 20px 0px;
+        margin: auto 0;
+        background-color: #fff;  
+        overflow: hidden;     
+        /* transition: all ease .5s */
+    }
+    aside.active{
+        min-width: 203px;
+        padding-left: 13px;
+        padding-right: 13px;
+        width: 203px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        min-height: 100vh;
+        margin-top: 60px !important;
+    }
+    aside a{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        color: #808181 !important;
+        text-decoration: none !important;
+        display: flex !important;
+        border-bottom: 1px solid #E3E3E3;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    aside .list-group-flush>.list-group-item:last-child {
+        border-bottom-width: 1px;
+        border-color: transparent;
+    }
+
+    aside a:hover{
+        position: relative;
+        border: none;
+        border-bottom: 1px solid #2278B8 !important;
+        font-size: 24px;
+        line-height: 26px;
+        color: #2278B8 !important;
+        background-color: #fff !important;
+    }
+    aside a:hover::after{
+        content: "";
+        position: absolute;
+        right: -15px;
+        bottom: -7px;
+        width:26px;
+        height:26px;
+        background-image: url('../images/nav/bird.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    aside a.active{
+        position: relative;
+        border: none;
+        border-bottom: 1px solid #2278B8 !important;
+        font-size: 24px;
+        line-height: 26px;
+        color: #2278B8 !important;
+        background-color: #fff !important;
+    }
+    aside a.active::after{
+        content: "";
+        position: absolute;
+        right: -15px;
+        bottom: -7px;
+        width:26px;
+        height:26px;
+        background-image: url('../images/nav/bird.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .menu-icon {
+        cursor: pointer;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 6px;
+        padding: 20px 7px;
+        position: relative;
+        margin: 16px 10px 10px 10px;
+    }
+      
+    .menu-icon .navicon {
+        background: #333;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background .2s ease-out;
+        width: 30px;
+    }
+    
+    .menu-icon .navicon:before,
+    .menu-icon .navicon:after {
+        background: #333;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+    }
+    
+    .menu-icon .navicon:before {
+        top: 10px;
+    }
+    
+    .menu-icon .navicon:after {
+        top: -10px;
+    }
+    
+    /* menu btn */
+    
+    .menu-btn {
+        display: none;
+    }
+    
+    .menu-btn:checked ~ .menu {
+        max-height: 240px;
+    }
+    
+    .menu-btn:checked ~ .menu-icon .navicon {
+        background: transparent;
+    }
+    
+    .menu-btn:checked ~ .menu-icon .navicon:before {
+        transform: rotate(-45deg);
+    }
+    
+    .menu-btn:checked ~ .menu-icon .navicon:after {
+        transform: rotate(45deg);
+    }
+    
+    .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+    .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+        top: 0;
+    }
+    .index-3{
+        z-index: 3;
+    }
+
+    .top-45{
+        top: 0px;
+    } 
+    .left-6{
+        left: 0px;
+    }
+        
+    @media screen and (max-width: 992px){
+        aside{
+           position: fixed !important;
+           top: 0;
+           left: 0;
+           min-width: 0;
+           padding-left: 0;
+           padding-right: 0;
+           width: 0;
+        }
+        main{
+            border-radius: 0 !important;
+        } 
+        .default-container{
+            padding-top: 70px;
+        }
+        .border-right-lg{
+            border-right: none !important;
+        }
+    }
+    @media screen and (max-width: 768px){
+        .border-right-md{
+            border-right: none !important;
+        }
+    }
+/* vertical nav css end */
+

@@ -1,0 +1,78 @@
+.team-building-page main{
+    width: 100%;
+    min-height: 750px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    margin: auto 43px;
+}
+
+.team-building-page .card-box{
+    position: relative;
+    max-width: 254px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    min-height: 100%;
+}
+.team-building-page .card-box h5{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 58px;
+}
+.team-building-page .card-box p{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+}
+.team-building-page>main>button{
+    background: #FFFFFF;
+    border: 0.5px solid #2278B8;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 327px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,-100%);
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #1F7CBA;
+}
+.team-building-page .card-box button{
+    width: 136px;
+    height: 136px;
+    border: 5px solid #2278B8;
+    border-radius: 18px;
+    background-color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-building-page .card-box button i{
+    color: #2278B8; 
+    font-size: 60px;
+    -webkit-text-stroke: 5px white;
+}
+.team-building-page .card-box button:hover>i{
+    font-size: 70px;
+}

@@ -1,0 +1,11 @@
+.auth-wrapper{
+    max-width: 500px;
+    width:100%;
+}
+.auth-heading{
+    font-size: 40px !important;
+    letter-spacing: 4px !important;
+}
+.auth-input{
+    border:1px solid var(--custom-primary);
+}

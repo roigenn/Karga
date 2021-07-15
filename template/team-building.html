@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Team Building</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./assets/css/default.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/team-building.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+    </head>
+    <body>
+        <div class="default-container d-flex bg-grey team-building-page">
+            <div class="position-fixed d-block d-lg-none index-3 top-45 left-6">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            </div>
+
+            <div class="position-relative" style="height: 100vh; display:flex">
+                <aside id="sideBar" class="my-auto">
+                    <div class="py-3 text-center">
+                        <img src="./assets/images/nav/logo.png" class="logo">
+                    </div>
+                    <ul class="list-group position-relative list-group-flush mx-0 px-0">
+                        <a class="list-group-item mb-3" href="profile-edit.html">
+                            <div class="mr-2">
+                                <img width="42px" height="auto" src="./assets/images/nav/nav-ico1.png" alt="">
+                            </div>
+                            <div class="my-auto">
+                                Anasayfa
+                            </div>
+                        </a>
+                        <a class="list-group-item mb-3 active" href="profile.html">
+                            <div class="mr-2">
+                                <img width="42px" height="auto" src="./assets/images/nav/nav-ico2.png" alt="">
+                            </div>
+                            <div class="my-auto">
+                                Profil
+                            </div>
+                        </a>
+                        <a class="list-group-item mb-3" href="index.html">
+                            <div class="mr-2">
+                                <img width="42px" height="auto" src="./assets/images/nav/nav-ico3.png" alt="">
+                            </div>
+                            <div class="my-auto">
+                                Öz Gelecek
+                            </div>
+                        </a>
+                        <a class="list-group-item mb-3" href="index.html">
+                            <div class="mr-2">
+                                <img width="42px" height="auto" src="./assets/images/nav/nav-ico4.png" alt="">
+                            </div>
+                            <div class="my-auto">
+                                Yarışma
+                            </div>
+                        </a>
+                        <a class="list-group-item mb-3" href="index.html">
+                            <div class="mr-2">
+                                <img width="42px" height="auto" src="./assets/images/nav/nav-ico5.png" alt="">
+                            </div>
+                            <div class="my-auto">
+                                Ekibim
+                            </div>
+                        </a>
+                        <a class="list-group-item mb-3" href="index.html">
+                            <div>
+                                <img width="42px" height="auto" src="./assets/images/nav/nav-ico6.png" alt="">
+                            </div>
+                            <div class="my-auto">
+                                Çıkış
+                            </div>
+                        </a>
+                    </ul>
+                </aside>
+            </div>
+            <main class="mx-0 mx-lg-5 position-relative d-flex flex-column py-4 py-lg-0">
+                <div class="row mx-0 my-auto">
+                    <div class="col-md-4 mb-3 mb-lg-0 border-right-md">
+                        <div class="card-box mx-auto">
+                            <h5>1. Ekip Üyesi</h5>
+                            <div class="text-center">
+                                <img class="" src="./assets/images/portfolio/avatar1.png" width="136px" height="136px" alt="">
+                                <p>Deniz Can Ilgın</p>
+                                <div>
+                                    <img src="./assets/images/portfolio/port-ico1.png" alt="">
+                                    <img src="./assets/images/portfolio/port-ico2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-lg-0 border-right-md">
+                        <div class="card-box mx-auto">
+                            <h5>2. Ekip Üyesi</h5>
+                            <div class="text-center">
+                                <div>
+                                    <button>
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                                <div>
+                                    <img src="./assets/images/portfolio/port-ico3.png" alt="">
+                                    <img src="./assets/images/portfolio/port-ico4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-lg-0">
+                        <div class="card-box mx-auto">
+                            <h5>3. Ekip Üyesi</h5>
+                            <div class="text-center">
+                                <button>
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div>
+                                    <img src="./assets/images/portfolio/port-ico3.png" alt="">
+                                    <img src="./assets/images/portfolio/port-ico4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button>Ekibimi Oluştur</button>
+            </main>
+        </div>
+
+        <script>
+            $(document).ready(function(){
+                $("#menu-btn").click(function(){
+                    $("aside").toggleClass("active")
+                })
+            })
+        </script>
+    </body>
+</html>

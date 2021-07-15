@@ -1,0 +1,11 @@
+.competition-slide-page main{
+    margin:auto 54px;
+    width: 100%;
+}
+.competition-slide-page #carouselExampleIndicators li{
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    background: #E3E3E3;
+}

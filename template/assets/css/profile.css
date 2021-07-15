@@ -1,0 +1,140 @@
+.profile-page main,
+.profile-edit-page main{
+    background: #FFFFFF;
+    border-radius: 48px;
+    padding: 32px 38px;
+    min-height: 790px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.img-box{
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 8px;
+    display: flex;
+    margin-bottom: auto;
+}
+.profile-page .ft-t12{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+}
+.profile-page .ft-t2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 21px;
+    color: #151415;
+    opacity: 0.8;
+}
+.profile-page .ft-t3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.01px;
+    line-height: 22px;
+    color: #000000;
+}
+.profile-page .ft-1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.4751px;
+    line-height: 15px;
+    text-align: center;
+    color: #9D9D9C;
+}
+.profile-page .ft-tb1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: #2278B8;
+}
+.profile-edit-page .ft-tb2{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+    color: #2D84BE;
+}
+.profile-edit-page .ft-2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.4751px;
+    line-height: 15px;
+    text-align: center;
+    color: #9D9D9C;
+}
+
+.profile-page .grey-box{
+    border-radius: 20px;
+    background: rgba(34, 120, 184, 0.07);
+    width: 333px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mw-495{
+    max-width: 495px;
+}
+.mh-122{
+    min-height: 122px;
+}
+.profile-page hr{
+    border: 1px solid #2278B8;
+}
+.profile-page .gr-oultine-box{
+    border: 1px solid #2278B8;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 27px
+}
+.profile-page textarea{
+    min-height: 140px;
+}
+.profile-edit-page .edit-input{
+    width: 100%;
+    max-width: 878px;
+    height: 118px;
+    border: 1px solid #2278B8;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.br-outline{
+    border: 1px solid #2278B8;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.mt-81{
+    margin-top: 81px;
+}
+.mt-38{
+    margin-top: 38px;
+}
+.mt-34{
+    margin-top: 34px;
+}
+.mb-27{
+    margin-bottom: 27px;
+}
+
+.max-w-327{
+    max-width: 327px;
+    width: 100%;
+}
+.w-193{
+    width:193px;
+}
+@media screen and (max-width:576px) {
+    .profile-page .grey-box{
+        width: auto !important;
+        padding-left: 12px;
+        padding-right: 12px;
+        
+    }
+}

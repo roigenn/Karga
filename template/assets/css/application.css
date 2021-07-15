@@ -1,0 +1,52 @@
+.application-page main{
+    width: 100%;
+    margin: auto 54px;                
+    border-radius: 30px;
+}
+.application-page .card-box{
+    position: relative;
+    max-width: 502px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    min-height: 100%;
+}
+.application-page .card-box h5{
+    margin-top: 28px;
+    margin-bottom: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.application-page .card-box p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.application-page .card-box button{
+    background: #FFFFFF;
+    border: 0.5px solid #2278B8;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 146px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -3%;
+    bottom: 0;
+    transform: translateY(50%);
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}

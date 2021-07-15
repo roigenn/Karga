@@ -1,0 +1,56 @@
+.self-future-page{
+    height: 100vh;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.self-future-page main{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.self-future-page .section-1{
+    background-color: #fff;
+    min-height: 337px;
+    border-radius: 15px;
+    padding: 59px 45px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.self-future-page .ft-3{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+.self-future-page hr{
+    border: 1px solid #2278B8;
+}
+.self-future-page .vl{
+    width: 1px;
+    height: 49px;
+    background-color: #767676;
+}
+.self-future-page input{
+    width: 64px;
+    height: 64px;
+}
+
+.wp-60{
+    width: 60%;
+}
+.wp-40{
+    width: 40%;
+}
+
+@media screen and (max-width:768px){
+    .wp-md-100{
+        width: 100% !important;
+    }
+}

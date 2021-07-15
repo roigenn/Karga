@@ -1,0 +1,256 @@
+.portfolio-page main{
+    margin-left: 98px;
+    margin-right: 98px;
+}
+.portfolio-page .tab-box1 #tabs1 a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #808181;
+    background: #FFFFFF;
+    border: 1px solid #2278B8;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px #2278B8;
+    border-radius: 15px !important;
+    width: 327px !important;
+}
+.portfolio-page .tab-box1 #tabs1 a.active{
+    font-size: 31px;
+    line-height: 31px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #2278B8;
+    width: 346px !important;
+    height: 80px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.portfolio-page .tab-box1 #tabsContent1 .tab-pane{
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.portfolio-page  .myteam.active::after{
+    content: '';
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 346px;
+    height: 76px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.portfolio-page  .myteams.active::after{
+    content: '';
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    width: 346px;
+    height: 76px;
+    transform: translateX(-50%);
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.portfolio-page  .myteams-invite.active::after{
+    content: '';
+    position: absolute;
+    top: -25px;
+    right: 0;
+    width: 346px;
+    height: 76px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.portfolio-page .circle-spot{
+    width: 27px;
+    height: 27px;
+    background: #E3E3E3;
+    border-radius: 50%;
+    display: inline-block;
+}
+.portfolio-page #myTeam{
+    padding-top: 100px;
+    padding-bottom: 76px;
+}
+.portfolio-page #myTeam>div>div>div{
+    width: 158px;
+    height: 158px;
+    border: 1px solid #2278B8;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.portfolio-page #myTeam>div img{
+    margin: auto;
+}
+.portfolio-page #tabs2 a{
+    width: 71px;
+    background: #FFFFFF;
+    border: none;
+    opacity: 0.5;
+    padding: 0;
+    font-family: Arial;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: center;
+    color: #000000;
+}
+.portfolio-page #tabs2 .nav-link.active{
+    /* width: 100px !important;
+    height: 100px !important; */
+    opacity: 1 !important;
+    /* font-size: 14px;
+    line-height: 16px; */
+    transform: scale(1.4);
+}
+.portfolio-page hr{
+    border: 1px solid #2278B8;
+}
+
+.ft-b16{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #004D86;
+}
+.ft-gy22{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.max-w-610{
+    max-width: 610px;
+}
+.portfolio-page .warning-box{
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9F0404;
+    border-radius: 50%;
+}
+.portfolio-page #MyTeamsInvites .section-1{
+    background: #FFFFFF;
+    border: 1px solid #2278B8;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 20px 40px;
+}
+.portfolio-page #MyTeamsInvites .section-1>div:first-child h4{
+    font-family: Futura-Normal;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    color: #000000;
+}
+.portfolio-page #MyTeamsInvites .section-1>div:first-child p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+.portfolio-page #MyTeamsInvites .section-1>div:first-child span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #10416F;
+    min-width: 156px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-page #MyTeamsInvites .section-1>p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: justify;
+    color: #000000;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+.portfolio-page #MyTeamsInvites .section-1 a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+}
+.portfolio-page #myTeam button{
+    width: 92px;
+    height: 92px;
+    border: 5px solid #2278B8;
+    border-radius: 18px;
+    background-color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-page #myTeam button i{
+    color: #2278B8; 
+    font-size: 60px;
+    -webkit-text-stroke: 5px white;
+}
+.portfolio-page #myTeam button:hover>i{
+    font-size: 70px;
+}
+.fc-red{
+    color: #920606;
+}
+.fc-blue{
+    color: #2278B8;
+}
+.fc-green{
+    color: #2A9206;
+}
+.w-20{
+    width: 20%;
+}
+@media screen and (max-width: 1140px){
+    .w-xl-25{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 992px){
+    .w-lg-33{
+        width: 33.3333333%;
+    }
+    .portfolio-page main{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 576px){
+    .w-sm-50{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1420px){
+    .portfolio-page #tabs1{
+        flex-direction: column;
+    }
+    .portfolio-page #tabs1 li{
+        margin-bottom: 16px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+

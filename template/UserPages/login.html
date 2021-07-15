@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="../assets/css/default.css">
+        <link rel="stylesheet" type="text/css" href="../assets/css/auth.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="default-container pb-5">
+            <header class="header-1 px-md-5 px-3 py-md-5 py-3 text-right">
+                <a class="btn px-5 rounded-pill custom-text-primary custom-border-primary bird-24" href="#">Kayıt Ol</a>
+            </header>
+            <div class="w-190 p-md-5 p-4">
+                <div class="auth-wrapper mx-auto">
+                    <div class="text-center">
+                        <h1 class="custom-text-primary font-futura-normal bird-34 d-inline-block auth-heading">kargakarga</h1>
+                    </div>
+                    <form>
+                        <div class="pt-5"></div>
+                        <label class="auth-label ml-4 custom-text-secondary">E-mail</label>
+                        <div class="input-group rounded-pill auth-input overflow-hidden px-3 py-1">
+                            <input type="email" class="form-control border-0 no-focus">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-transparent border-0 custom-text-secondary"><i class="fa fa-at fa-lg"></i></span>
+                            </div>
+                        </div>
+                        
+                        <div class="pt-4"></div>
+                        <label class="auth-label ml-4 custom-text-secondary">Şifre</label>
+                        <div class="input-group rounded-pill auth-input overflow-hidden px-3 py-1">
+                            <input type="password" class="form-control border-0 no-focus">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-transparent border-0 custom-text-secondary"><i class="fa fa-eye-slash fa-lg"></i></span>
+                            </div>
+                        </div>
+        
+                        <div class="d-flex align-items-center justify-content-between px-1 py-3">
+                            <div class="custom-control custom-switch">
+                                <input checked type="checkbox" class="custom-control-input" id="customSwitch">
+                                <label class="custom-control-label custom-text-secondary" for="customSwitch">Beni Hatırla</label>
+                            </div>
+                            <span class="custom-text-secondary small">Şifremi Unuttum</span>
+                        </div>
+        
+                        <div class="pt-3 d-flex align-items-center justify-content-between" style="gap:0px 20px">
+                            <a class="btn btn-light custom-border-primary rounded-pill px-5"><img src="../assets/images/google.png" height="20px"></a>
+                            <button type="submit" class="btn custom-background-primary custom-border-primary rounded-pill text-white flex-fill">Giriş Yap</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="position-absolute bottom-0 text-center w-100">
+                <img class="img-fluid" src="../assets/images/auth-footer.png" alt="">
+            </div>
+        </div>
+    </body>
+</html>
