@@ -178,6 +178,15 @@ export const router = new VueRouter({
         default: ApplicationReceived,
         sidebar: Sidebar
       }
+    },
+    {
+      path: "/profileEdit",
+      name: "profileEdit",
+      components: {
+        leftBlank: LeftBlank,
+        default: ProfileEdit,
+        sidebar: Sidebar
+      }
     }
   ],
 

@@ -19,7 +19,10 @@
         Yarışma başvurunuz başarılı bir<br />
         şekilde alınmıştır.
       </p>
-      <button>Ana Sayfaya Dön ></button>
+
+      <router-link tag="button" :key="'home'" :to="{ name: 'home' }">
+        Ana Sayfaya Dön
+      </router-link>
     </div>
   </main>
 </template>

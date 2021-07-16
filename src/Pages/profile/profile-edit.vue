@@ -39,9 +39,14 @@
     </div>
 
     <div class="mt-4 ft-2">
-      <button class="mx-auto py-2 ft-t2 br-outline w-193 bg-white">
+      <router-link
+        tag="button"
+        class="mx-auto py-2 ft-t2 br-outline w-193 bg-white"
+        :key="'profile'"
+        :to="{ name: 'profile' }"
+      >
         Kaydet
-      </button>
+      </router-link>
     </div>
   </main>
 </template>

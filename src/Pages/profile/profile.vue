@@ -94,7 +94,12 @@ Bachelors
     </section>
 
     <div class="mt-34 d-flex">
-      <a href="#" class="d-flex mx-auto py-2 px-4 ft-t4 gr-oultine-box">
+      <router-link
+        tag="a"
+        class="d-flex mx-auto py-2 px-4 ft-t4 gr-oultine-box"
+        :key="'profileEdit'"
+        :to="{ name: 'profileEdit' }"
+      >
         <div class="mr-4 my-auto ft-1">
           Profili Düzenle
         </div>
@@ -103,7 +108,7 @@ Bachelors
           src="/../../../template/assets/images/profile/profile-ico3.png"
           alt=""
         />
-      </a>
+      </router-link>
     </div>
   </main>
 </template>

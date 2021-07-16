@@ -23,8 +23,12 @@
 <script>
 import { mapMutations } from "vuex";
 import { mutations } from "../store/modules/other";
+import { router } from ".././router";
 export default {
   created() {
+    if (!this.$store.state.isAuthenticated) {
+      router.push("/login");
+    }
     this.$store.commit("setClass", {
       name: "d-flex bg-grey self-future-not-page"
     });
