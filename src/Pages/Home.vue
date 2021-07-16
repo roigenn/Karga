@@ -22,11 +22,12 @@
 
 <script>
 import { mapMutations } from "vuex";
+import { mutations } from "../store/modules/other";
 export default {
-  computed: {
-    ...mapMutations({
-      setClass: { name: "d-flex bg-grey application-received-page" }
-    })
+  created() {
+    this.$store.commit("setClass", {
+      name: "d-flex bg-grey self-future-not-page"
+    });
   }
 };
 </script>

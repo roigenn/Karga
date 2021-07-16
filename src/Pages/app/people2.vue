@@ -4,15 +4,13 @@
       <div>
         <img
           class="img-fluid"
-          src="./assets/images/app-received-img3.png"
+          src="/../../../template/assets/images/app-received-img4.png"
           alt=""
         />
       </div>
-
-      <h5>Portföyünde En Az 9 Kişi Olmalı!</h5>
       <p>
-        Portföyünde 9’dan daha az kişi var.<br />
-        Adam toplayıp gelmelisin.
+        Portföyünüzde [IKON] rolüne sahip<br />
+        kimse bulunmamaktadır.
       </p>
       <button>Şimdi Bul ve Ekle ></button>
     </div>
@@ -20,15 +18,14 @@
 </template>
 
 <script>
-import { mapMutations } from "vuex";
 export default {
   created() {
     this.$store.commit("setClass", {
-      name: "d-flex bg-grey contest-invite-page"
+      name: "d-flex bg-grey people2-page"
     });
   }
 };
 </script>
 <style scoped>
-/*@import "/../../../template/assets/css/self-future-not-solved.css";*/
+@import "/../../../template/assets/css/people2.css";
 </style>

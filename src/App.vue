@@ -1,9 +1,6 @@
 <template>
   <!-- class'ı parametre ile değişecek -->
-  <div
-    class="default-container d-flex bg-grey self-future-not-page"
-    :class="getClass"
-  >
+  <div class="default-container" :class="getClass">
     <router-view name="leftBlank"></router-view>
     <router-view name="sidebar"></router-view>
 

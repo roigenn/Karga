@@ -4,13 +4,13 @@
       <div>
         <img
           class="img-fluid"
-          src="../.././template/assets/images/app-received-img1.png"
+          src="/../../../template/assets/images/app-received-img1.png"
           alt=""
         />
       </div>
       <div class="my-3">
         <img
-          src="../.././template/assets/images/app-received-img5.png"
+          src="/../../../template/assets/images/app-received-img5.png"
           alt=""
         />
       </div>
@@ -27,13 +27,13 @@
 <script>
 import { mapMutations } from "vuex";
 export default {
-  computed: {
-    ...mapMutations({
-      setClass: { name: "d-flex bg-grey application-received-page" }
-    })
+  created() {
+    this.$store.commit("setClass", {
+      name: "d-flex bg-grey application-received-page"
+    });
   }
 };
 </script>
 <style scoped>
-@import "../../template/assets/css/self-future-not-solved.css";
+@import "/../../../template/assets/css/application-received.css";
 </style>

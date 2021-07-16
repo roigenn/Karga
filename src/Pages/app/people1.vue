@@ -4,7 +4,7 @@
       <div>
         <img
           class="img-fluid"
-          src="./assets/images/app-received-img3.png"
+          src="/../../../template/assets/images/app-received-img3.png"
           alt=""
         />
       </div>
@@ -24,11 +24,11 @@ import { mapMutations } from "vuex";
 export default {
   created() {
     this.$store.commit("setClass", {
-      name: "d-flex bg-grey contest-invite-page"
+      name: "d-flex bg-grey people1-page"
     });
   }
 };
 </script>
 <style scoped>
-/*@import "/../../../template/assets/css/self-future-not-solved.css";*/
+@import "/../../../template/assets/css/people1.css";
 </style>

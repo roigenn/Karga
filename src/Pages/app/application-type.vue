@@ -9,8 +9,18 @@
               src="../../.././template/assets/images/type-img1.png"
               alt=""
             />
-            <button class="outline-blue ">Şimdi Başvur></button>
+            <router-link
+              tag="li"
+              class="w-100 h-auto"
+              src="../../.././template/assets/images/type-img1.png"
+              alt=""
+              :key="'teamBuilding'"
+              :to="{ name: 'teamBuilding' }"
+            >
+              <button class="outline-blue ">Şimdi Başvur -></button>
+            </router-link>
           </div>
+
           <h5 class="mx-3">Ekibimi kendim oluşturacağım</h5>
           <p class="mx-3">
             Portföyünüzdeki kişilerden ekibinizi kendiniz oluşturun.
@@ -26,7 +36,16 @@
               src="../../.././template/assets/images/type-img1.png"
               alt=""
             />
-            <button class="outline-blue ">Şimdi Başvur ></button>
+            <router-link
+              tag="li"
+              class="w-100 h-auto"
+              src="../../.././template/assets/images/type-img1.png"
+              alt=""
+              :key="'teamBuilding'"
+              :to="{ name: 'teamBuilding' }"
+            >
+              <button class="outline-blue ">Şimdi Başvur -></button>
+            </router-link>
           </div>
           <h5 class="mx-3">Ekibimi kendim oluşturacağım</h5>
           <p class="mx-3">
@@ -42,10 +61,10 @@
 <script>
 import { mapMutations } from "vuex";
 export default {
-  computed: {
-    ...mapMutations({
-      setClass: { name: "d-flex bg-grey application-received-page" }
-    })
+  created() {
+    this.$store.commit("setClass", {
+      name: "d-flex bg-grey application-received-page"
+    });
   }
 };
 </script>

@@ -9,6 +9,7 @@ const getters = {
 const mutations = {
   setClass(state, payload) {
     state.class = payload.name;
+    console.log("mutation is okay");
   }
 };
 

@@ -65,10 +65,10 @@
 <script>
 import { mapMutations } from "vuex";
 export default {
-  computed: {
-    ...mapMutations({
-      setClass: { name: "d-flex bg-grey application-received-page" }
-    })
+  created() {
+    this.$store.commit("setClass", {
+      name: "d-flex bg-grey categories-page"
+    });
   }
 };
 </script>
