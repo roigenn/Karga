@@ -8,8 +8,8 @@ const mutations = {
   setToken(state, token) {
     state.token = token;
     localStorage.setItem("token", token);
-    router.push("/profile");
-    console.log("df");
+    router.push({ path: "home" });
+    console.log("setToken");
   },
   clearToken(state) {
     state.token = "";
@@ -19,6 +19,7 @@ const mutations = {
 
 const getters = {
   isAuthenticated(state) {
+    console.log("isAuth " + state.token !== "");
     return state.token !== "";
   }
 };

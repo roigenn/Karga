@@ -6,21 +6,18 @@
           <div class="position-relative">
             <img
               class="w-100 h-auto"
-              src="../../.././template/assets/images/type-img1.png"
+              src="/../../.././template/assets/images/type-img1.png"
               alt=""
             />
             <router-link
-              tag="li"
-              class="w-100 h-auto"
-              src="../../.././template/assets/images/type-img1.png"
-              alt=""
+              tag="button"
+              class="outline-blue p-3 rounded float-right"
               :key="'teamBuilding'"
               :to="{ name: 'teamBuilding' }"
             >
-              <button class="outline-blue ">Şimdi Başvur -></button>
+              Şimdi Başvur
             </router-link>
           </div>
-
           <h5 class="mx-3">Ekibimi kendim oluşturacağım</h5>
           <p class="mx-3">
             Portföyünüzdeki kişilerden ekibinizi kendiniz oluşturun.
@@ -30,21 +27,20 @@
 
       <div class="col-lg-6">
         <div class="card-box mx-auto pb-5">
-          <div class="position-relative">
+          <div class="position-relative ">
             <img
               class="w-100 h-auto"
-              src="../../.././template/assets/images/type-img1.png"
+              src="/../../.././template/assets/images/type-img1.png"
               alt=""
             />
+
             <router-link
-              tag="li"
-              class="w-100 h-auto"
-              src="../../.././template/assets/images/type-img1.png"
-              alt=""
+              tag="button"
+              class="outline-blue p-3 rounded float-right"
               :key="'teamBuilding'"
               :to="{ name: 'teamBuilding' }"
             >
-              <button class="outline-blue ">Şimdi Başvur -></button>
+              Şimdi Başvur
             </router-link>
           </div>
           <h5 class="mx-3">Ekibimi kendim oluşturacağım</h5>

@@ -1,6 +1,6 @@
 <template>
   <!-- class'ı parametre ile değişecek -->
-  <div class="default-container" :class="getClass">
+  <div class="default-container ml-0 p-0" :class="getClass">
     <router-view name="leftBlank"></router-view>
     <router-view name="sidebar"></router-view>
 

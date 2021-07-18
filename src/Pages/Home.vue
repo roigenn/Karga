@@ -26,7 +26,9 @@ import { mutations } from "../store/modules/other";
 import { router } from ".././router";
 export default {
   created() {
-    if (!this.$store.state.isAuthenticated) {
+    console.log("HOMEEEEE");
+
+    if (!this.$store.getters.isAuthenticated) {
       router.push("/login");
     }
     this.$store.commit("setClass", {

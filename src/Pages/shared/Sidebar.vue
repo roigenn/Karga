@@ -1,11 +1,11 @@
 <template>
-  <div class="position-relative" style="height: 100vh; display:flex">
+  <div class="position-relative" style="">
     <aside id="sideBar" class="my-auto">
       <div class="py-3 text-center">
         <img src="/../../../template/assets/images/nav/logo.png" class="logo" />
       </div>
       <ul class="list-group position-relative list-group-flush mx-0 px-0">
-        <router-link tag="li" :key="'/'" :to="{ name: '/' }">
+        <router-link tag="li" :key="'home'" :to="{ name: 'home' }">
           <a class="list-group-item mb-3">
             <div class="mr-2">
               <img
@@ -106,7 +106,7 @@
           </router-link>
         </template>
         <template v-else>
-          <router-link tag="li" :key="'home'" :to="{ name: 'home' }">
+          <router-link tag="li" :key="'home2'" :to="{ name: 'home' }">
             <a class="list-group-item mb-3 " @click="logout">
               <div>
                 <img

@@ -29,7 +29,7 @@ export const router = new VueRouter({
     {
       path: "*",
       name: "catchAll",
-      component: Home
+      component: Login
     },
     {
       path: "/index.html",
@@ -176,15 +176,6 @@ export const router = new VueRouter({
       components: {
         leftBlank: LeftBlank,
         default: ApplicationReceived,
-        sidebar: Sidebar
-      }
-    },
-    {
-      path: "/profileEdit",
-      name: "profileEdit",
-      components: {
-        leftBlank: LeftBlank,
-        default: ProfileEdit,
         sidebar: Sidebar
       }
     }
